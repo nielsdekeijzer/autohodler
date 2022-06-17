@@ -1,0 +1,19 @@
+{
+  "name": "autohodler",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "func start",
+    "test": "echo \"No tests yet...\"",
+    "decrypt": "func settings decrypt",
+    "encrypt": "func settings encrypt"
+  },
+  "dependencies": {
+    "bitvavo": "^1.2.0",
+    "durable-functions": "^1.5.3",
+    "tabletojson": "^2.0.7"
+  },
+  "devDependencies": {
+    "ipware": "^2.0.0"
+  }
+}

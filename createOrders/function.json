@@ -1,0 +1,9 @@
+{
+  "bindings": [
+    {
+      "name": "getBasket",
+      "type": "activityTrigger",
+      "direction": "in"
+    }
+  ]
+}
