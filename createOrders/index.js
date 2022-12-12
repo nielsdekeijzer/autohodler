@@ -26,11 +26,11 @@ module.exports = async function (context) {
             if (currency === undefined) {
                 throw new Error(`Unknown currency: ${i}`);
             }
+            return currency;
         })
     }
 
-    const mappedCurrencies = mapCurrencies();
-
+    const mappedCurrencies = mapCurrencies(basket);
 
     const deposit = 200; //TODO: balance check, configurable amount
     let orders = [];
